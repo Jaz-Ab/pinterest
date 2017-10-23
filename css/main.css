@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 2000px;
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+}
+
+.icon-search:before {
+  margin-left: 25px;
+  position: relative;
+  top: -4px;
+}
+
+ ul {
+   outline: 1px solid green;
+   font-family: 'Patua One', cursive;
+   text-align: center;
+ }
+
+ li {
+   outline: 1px solid brown;
+   display: inline-block;
+   width: 130px;
+   height: 60px;
+   margin: 5px 10px;
+ }
+ p {
+   outline: 1px solid red;
+   position: relative;
+   top: -5px;
+   left: 38%;
+   font-size: 16px;
+   font-weight: bold;
+ }
+input {
+  /*outline: 1px solid black;*/
+  width: 520px;
+  height: 20px;
+  position: relative;
+  top: -5px;
+  font-size: 16px;
+  border: none;
+  background-color: #E5E7E9;
+}
+
+.input {
+  width: 64%;
+  height: 40px;
+  position: relative;
+  top: -26px;
+  left: 6.2%;
+  background-color: #E5E7E9;
+  border-radius: 4px;
+
+}
+
+.logo {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  left: 5.5%;
+}
+
+img {
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+}
+
+div {
+  outline: 1px solid pink;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.nav-one {
+  outline: 1px solid blue;
+  display: block;
+  box-sizing: border-box;
+  height: 65px;
+  position: relative;
+}
+
+.nav-two {
+  outline: 1px solid blue;
+  display: block;
+  box-sizing: border-box;
+  height: 85px;
+  position: relative;
+}
+
+.menu-one {
+  display: block;
+  position: absolute;
+  height: 65px;
+  width: 100%;
+  padding-left: 7%;
+}
+ .menu-two {
+   display: block;
+   height: 82px;
+   width: 100%;
+   position: absolute;
+   top: 0px;
+ }
+
+ p {
+   display: inline-block;
+   font-size: 14px;
+ }
+
+ header {
+   position: fixed;
+   display: block;
+ }
+
+a {
+  text-decoration: none;
+}
+
+.icon-user {
+  color: #B3B6B7;
+  position: relative;
+  top: 22px;
+  left: 25px;
+}
+
+.icon-bars {
+  color: #B3B6B7;
+  position: relative;
+  top: 22px;
+  left: 25px;
+}
+
+.icon-commenting {
+  color: #B3B6B7;
+  position: relative;
+  top: 22px;
+  left: 25px;
+}
+
+.user {
+  height: 64px;
+  width: 60px;
+  position: relative;
+  left: 8%;
+  top: -50px;
+}
+
+.bars{
+  height: 64px;
+  width: 60px;
+  position: relative;
+  left: 8%;
+  top: -50px
+}
+
+.comment {
+  height: 64px;
+  width: 60px;
+  position: relative;
+  left: 8%;
+  top: -50px
+}
